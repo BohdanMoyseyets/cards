@@ -1,0 +1,31 @@
+.pagination{
+    background-color: #fff;
+    list-style: none;
+    display: flex;
+}
+
+.pageLink{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    box-shadow: 0px 4px 8px 0px rgba(132,138,148,1);
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.pageCurrent{
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: not-allowed;
+    font-weight: 700;
+}

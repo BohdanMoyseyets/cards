@@ -1,17 +1,9 @@
-.cart{
-    background-color: #fff;
-    
-}
 .productList{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-.h2{
-    margin: 10px;
-    padding: 10px;
-    color: #b2b2b2
-}
+
 .product{
     margin: 10px 15px;
     background-color: #fff;
@@ -38,62 +30,41 @@
     font-weight: 600;
     margin-bottom: 5px;
 }
-
-.quantity{
-    display: inline-block;
-    font-size: 1rem;
-    font-weight: 500;
-    margin: 0 20px;
-}
-
 .btn{
     display: inline-flex;
     justify-content: center;
     align-items: center;
     height: 30px;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
     margin: 10px;
     font-weight: 700;
     color: #fff;
 }
-
-.back{
-    width: 100px;
-    height: 40px;
-    text-decoration: none;
+.edit{
     background-color: #fff;
-    color:  rgb(34, 241, 113);
-    border: 2px solid rgb(34, 241, 113);
+    color:  rgb(12, 201, 185);
+    border: 2px solid rgb(12, 201, 185);
     font-weight: 600;
-    box-sizing: border-box;
 }
-.delBtn{
-    display: inline-block;
-
+.add{
+    background-color: #fff;
+    color:  rgb(0, 101, 252);
+    border: 2px solid rgb(0, 101, 252);
+    font-weight: 600;
 }
-
+.add:disabled{
+    opacity: 0.8;
+    color:  rgb(125, 125, 126);
+    border: 2px solid rgb(125, 125, 126);
+    font-weight: 600;
+    cursor: not-allowed;
+}
 .del{
     width: 100px;
     text-decoration: none;
     background-color: #fff;
-    color:  rgb(241, 34, 34);
-    border: 2px solid rgb(241, 34, 34);
-}
-.count{
-    width: 30px;
-    background-color: #fff;
-    color:  rgb(34, 65, 241);
-    border: 2px solid rgb(34, 65, 241);
-    margin: 0 5px;
-    font-size: 14px;
-}
-.count:disabled{
-    color:  rgb(136, 136, 136);
-    border: 2px solid rgb(136, 136, 136);
-}
-.total{
-    font-size: 18px;
+    color:  rgb(240, 2, 81);
+    border: 2px solid rgb(240, 2, 81);
     font-weight: 600;
-
 }

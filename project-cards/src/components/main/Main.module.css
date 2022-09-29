@@ -1,3 +1,22 @@
 .main{
-    background-color: aliceblue;
+    background-color: #fff;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+.create, .cart{
+    width: 100px;
+    color: rgb(0, 150, 150);
+    border: 2px solid rgb(0, 150, 150);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
